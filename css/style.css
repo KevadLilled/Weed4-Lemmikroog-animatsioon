@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Rampart+One&display=swap');
+
+body {
+    background-color: white;
+}
+
+.header {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+    color: rgb(190, 97, 128);
+    font-size: large;
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    0% {top: -100px}
+    100% {top: 20px}
+}
+
+img {
+    position: relative;
+    width: 420px;
+    float: right;
+    padding: 30px;
+    animation: img;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img {
+    0% {right: -1000px}
+    100% {right: 0}
+}
+
+.koostisosad {
+    width: 30%;
+    font-family: 'Atma', cursive;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.koostisosad-tabel {
+    position: relative;
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 70%;
+    animation: koostisosadtabel;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes koostisosadtabel {
+    0% {left: -1000px}
+    100% {left: 0}
+}
+
+.header2 {
+    font-family: 'Atma', cursive; 
+    padding-left: 10px;
+}
+
+.töökäik {
+    position: relative;
+    font-family: 'Atma', cursive;
+    margin-left: -1cm;
+    animation: töökäik;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes töökäik {
+    0% {left: -1000px}
+    85% {left: 50px}
+    100% {left: 0}
+}
+
+.allikas {
+    font-family: 'Atma', cursive;
+    font-size: smaller;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Atma', cursive;
+}
